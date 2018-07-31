@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cf59ea1-e40d-4131-98fe-596f370caf10" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +19,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="9131" column="14" lean-forward="true" selection-start-line="9131" selection-start-column="14" selection-end-line="9131" selection-end-column="14" />
+            <state relative-caret-position="442">
+              <caret line="9123" column="22" selection-start-line="9123" selection-start-column="22" selection-end-line="9123" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -307,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1533030377348</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="33">
+      <created>1533036611284</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1533036611284</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -315,7 +321,7 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50159913" side_tool="true" visible="true" weight="0.3293348" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="4" sideWeight="0.50159913" side_tool="true" visible="true" weight="0.3293348" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" sideWeight="0.49840087" weight="0.3293348" />
       <window_info anchor="bottom" id="Python Console" order="6" sideWeight="0.49946696" weight="0.3293348" />
@@ -376,7 +382,8 @@
     <MESSAGE value="7-31   16:19" />
     <MESSAGE value="7-31   17:14" />
     <MESSAGE value="22222" />
-    <option name="LAST_COMMIT_MESSAGE" value="22222" />
+    <MESSAGE value="33" />
+    <option name="LAST_COMMIT_MESSAGE" value="33" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/static/css/style.css">
@@ -496,6 +503,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
           <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="e#644#676#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -577,6 +587,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
           <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+          <folding>
+            <element signature="e#644#676#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -625,8 +638,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="9131" column="14" lean-forward="true" selection-start-line="9131" selection-start-column="14" selection-end-line="9131" selection-end-column="14" />
+        <state relative-caret-position="442">
+          <caret line="9123" column="22" selection-start-line="9123" selection-start-column="22" selection-end-line="9123" selection-end-column="22" />
         </state>
       </provider>
     </entry>
