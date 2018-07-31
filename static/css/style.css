@@ -9118,8 +9118,20 @@ table .upload-btn {
 }
 
 .box1{
-    margin-top:  150px;
-    margin-left: 200px;
-    width:200px;
+    position: fixed;
+    top:  280px;
+    left: 250px;
+
+}
+
+.box1 .pic{
+    width:auto;
+    height:auto;
+}
+
+.box1 .b-text{
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    font-size: 20px;
+    text-align:center;
 }
 
