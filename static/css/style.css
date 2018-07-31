@@ -548,6 +548,7 @@ caption {
     text-align: center;
     float: left;
     cursor: pointer;
+
 }
 
 .registerbtn {
@@ -9113,4 +9114,11 @@ table .upload-btn {
 .registbox .mobile-register-captcha{
     height:auto;
     left:auto;
+}
+
+.pageside{
+    top: 0%;
+    left:0%;
+    width:20%;
+    float:left;
 }

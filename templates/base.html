@@ -7,8 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
 <title>	{% block titile %}首页 {% endblock %}</title>
 	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'css/reset.css' %}">
-	<link rel="stylesheet" type="text/css" href="{% static 'css/login.css' %}">
     {% block custom_css %} {% endblock %}
     <script src="{% static 'js/jquery.min.js' %}" type="text/javascript"></script>
     <script src="{% static 'js/jquery-migrate-1.2.1.min.js' %}" type="text/javascript"></script>
@@ -17,7 +15,7 @@
 <body>
 <section class="headerwrap ">
     <header>
-		<div class=" header">
+		<div  class=" header">
  			<div class="top">
             <div class="wp">
              <div class="fl"><p>后台管理系统</p></div>
@@ -29,29 +27,6 @@
     </header>
 </section>
 
-<section>
-		<div class="wp">
-			<ul class="feature">
-				<li class="feature1">
-					<img class="pic" src="{% static 'images/feature1.png' %}"/>
-					<p class="center">算法配置</p>
-				</li>
-				<li class="feature2">
-					<img class="pic" src="{% static 'images/feature2.png' %}"/>
-					<p class="center">系统分析</p>
-				</li>
-				<li class="feature3">
-					<img class="pic" src="{% static 'images/feature3.png' %}"/>
-					<p class="center">测试分析</p>
-				</li>
-				<li class="feature4">
-					<img class="pic" src="{% static 'images/feature4.png' %}"/>
-					<p class="center">数据真实</p>
-				</li>
-			</ul>
-		</div>
-	</section>
-<!--crumbs start-->
 {% block custom_bread %}
     <section>
         <div class="wp">
@@ -100,8 +75,7 @@
 <script src="{% static 'js/unslider.js' %}" type="text/javascript"></script>
 <script src="{% static 'js/plugins/jquery.scrollLoading.js' %}"  type="text/javascript"></script>
 <script src="{% static 'js/deco-common.js' %}"  type="text/javascript"></script>
-{% block custom_js %}
-    <script type="text/javascript" src="{% static 'js/index.js' %}"></script>
-{% endblock %}
+{% block custom_js %} {% endblock %}
 </body>
 </html>
+

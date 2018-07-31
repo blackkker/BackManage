@@ -6,3 +6,7 @@ from  django.shortcuts import render
 
 def index(request):
     return render(request, 'index.html')
+
+
+def part1(request):
+    return render(request, 'part1.html')
