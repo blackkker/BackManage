@@ -69,7 +69,7 @@ hr {
 html { overflow-y: scroll; }
 
 /*浮动*/
-.fl{float:left!important;}
+.fl{float:left!important;font-size: 18px;}
 .fr{float:right!important;}
 .relative{position:relative!important;}
 .clear{ clear:both;}
