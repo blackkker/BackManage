@@ -9121,6 +9121,7 @@ table .upload-btn {
     position: fixed;
     top:  280px;
     left: 250px;
+    text-align: center;
 
 }
 
