@@ -9119,18 +9119,15 @@ table .upload-btn {
 
 .box1{
     position: fixed;
-    top:  300px;
-    left: 280px;
+    top:  280px;
+    left: 250px;
 
-}
-
-.asdqwe{
-    text-align: right;
 }
 
 .box1 .pic{
     width:auto;
     height:auto;
+    left: 50px;
 
 }
 

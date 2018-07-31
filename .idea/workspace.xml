@@ -20,7 +20,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
+            <state relative-caret-position="362">
               <caret line="42" column="24" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
             </state>
           </provider>
@@ -29,8 +29,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="746">
-              <caret line="9137" column="64" lean-forward="true" selection-start-line="9137" selection-start-column="64" selection-end-line="9137" selection-end-column="64" />
+            <state relative-caret-position="556">
+              <caret line="9125" lean-forward="true" selection-start-line="9125" selection-end-line="9125" />
             </state>
           </provider>
         </entry>
@@ -273,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1533029539889</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="4">
+      <created>1533036210703</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1533036210704</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -355,7 +362,9 @@
     <MESSAGE value="7.31 15:26" />
     <MESSAGE value="7-31   16:19" />
     <MESSAGE value="7-31   17:14" />
-    <option name="LAST_COMMIT_MESSAGE" value="7-31   17:14" />
+    <MESSAGE value="&#10;44" />
+    <MESSAGE value="4" />
+    <option name="LAST_COMMIT_MESSAGE" value="4" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/static/css/style.css">
@@ -573,13 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="42" column="24" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/part1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -587,10 +589,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="42" column="24" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="746">
-          <caret line="9137" column="64" lean-forward="true" selection-start-line="9137" selection-start-column="64" selection-end-line="9137" selection-end-column="64" />
+        <state relative-caret-position="556">
+          <caret line="9125" lean-forward="true" selection-start-line="9125" selection-end-line="9125" />
         </state>
       </provider>
     </entry>
