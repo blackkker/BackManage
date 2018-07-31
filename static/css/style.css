@@ -9119,14 +9119,15 @@ table .upload-btn {
 
 .box1{
     position: fixed;
-    top:  280px;
-    left: 250px;
+    top:  300px;
+    left: 280px;
 
 }
 
 .box1 .pic{
     width:auto;
     height:auto;
+
 }
 
 .box1 .b-text{
