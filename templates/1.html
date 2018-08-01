@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>算法</title>
+</head>
+<body>
+<nav class="navbar navbar-default">
+    <div class="navbar-header">
+        <a href="#" class="navbar-brand">IframeDemo</a>
+    </div>
+    <ul class="nav navbar-nav">
+        <li class="active"><a href="templates/home.html" target="mainiframe"> Home</a></li>
+        <li><a href="templates/blog.html" target="mainiframe">Blog</a></li>
+        <li><a href="templates/about.html" target="mainiframe">About</a></li>
+    </ul>
+
+</nav>
+<div>
+    <iframe name="mainiframe" src="templates/home.html" id="mainiframe" scrolling="no" onload="resizeFrameHeight()" frameborder="0" width="100%"></iframe>
+</div>
+<script type="text/javascript">
+
+    function resizeFrameHeight(){
+        var ifm = document.getElementById("mainiframe");
+        ifm.height = document.documentElement.clientHeight - 50;
+    }
+
+    window.onresize=function(){
+        resizeFrameHeight();
+    }
+</script>
+</body>
+</html>

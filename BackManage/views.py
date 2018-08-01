@@ -10,3 +10,7 @@ def index(request):
 
 def part1(request):
     return render(request, 'part1.html')
+
+
+def h1(request):
+    return render(request, '1.html')

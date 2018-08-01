@@ -101,13 +101,13 @@
 <div class="col-md-2">
 <ul id="main-nav" class="nav nav-tabs nav-stacked" style="">
 <li class="active">
-<a href="#">
+<a href="#" target="mainframe">
 <i class="glyphicon glyphicon-th-large"></i>
 功能
 </a>
 </li>
-<li>
-<a href="#systemSetting" class="nav-header collapsed" data-toggle="collapse">
+<!--<li>
+<a href="#" class="nav-header collapsed" data-toggle="collapse">
 <i class="glyphicon glyphicon-cog"></i>
 系统管理
 <span class="pull-right glyphicon glyphicon-chevron-down"></span>
@@ -119,21 +119,21 @@
 <li><a href="#"><i class="glyphicon glyphicon-edit"></i>修改密码</a></li>
 <li><a href="#"><i class="glyphicon glyphicon-eye-open"></i>日志查看</a></li>
 </ul>
-</li>
+</li>-->
 <li>
-<a href="./plans.html">
+<a href="./1.html" target="mainframe">
 <i class="glyphicon glyphicon-cog"></i>
 算法配置
 </a>
 </li>
 <li>
-<a href="./grid.html">
+<a href="./2.html" target="mainframe">
 <i class="glyphicon glyphicon-cog"></i>
 系统分析
 </a>
 </li>
 <li>
-<a href="./charts.html">
+<a href="./3.html">
 <i class="glyphicon glyphicon-cog"></i>
 统计分析
 </a>
@@ -141,7 +141,7 @@
 </ul>
 </div>
 <div class="col-md-10">
-主窗口
+     <iframe name="mainiframe" src="part1.html" id="mainiframe" scrolling="no" onload="changeFramepage()" frameborder="0" width="100%"></iframe>
 </div>
 </div>
 </div>
@@ -172,6 +172,13 @@
         $('#wrapper').toggleClass('toggled');
     });
 });
+</script>
+
+<script type="text/javascript">
+
+    function changeFramepage(){
+        var ifm = document.getElementById("mainiframe");
+    }
 </script>
 
 
