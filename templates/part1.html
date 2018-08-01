@@ -97,15 +97,15 @@
 
 
 <div class="container-fluid">
-<div class="row">
-<div class="col-md-2">
-<ul id="main-nav" class="nav nav-tabs nav-stacked" style="">
-<li class="active">
-<a href="#" target="mainframe">
-<i class="glyphicon glyphicon-th-large"></i>
-功能
-</a>
-</li>
+    <div class="row">
+        <div class="col-md-2">
+            <ul id="main-nav" class="nav nav-tabs nav-stacked" style="">
+                <li class="active">
+                <a href="#" target="mainiframe">
+                    <i class="glyphicon glyphicon-th-large"></i>
+                    功能
+                </a>
+            </li>
 <!--<li>
 <a href="#" class="nav-header collapsed" data-toggle="collapse">
 <i class="glyphicon glyphicon-cog"></i>
@@ -120,62 +120,34 @@
 <li><a href="#"><i class="glyphicon glyphicon-eye-open"></i>日志查看</a></li>
 </ul>
 </li>-->
-<li>
-<a href="./1.html" target="mainframe">
-<i class="glyphicon glyphicon-cog"></i>
-算法配置
-</a>
-</li>
-<li>
-<a href="./2.html" target="mainframe">
-<i class="glyphicon glyphicon-cog"></i>
-系统分析
-</a>
-</li>
-<li>
-<a href="./3.html">
-<i class="glyphicon glyphicon-cog"></i>
-统计分析
-</a>
-</li>
-</ul>
-</div>
-<div class="col-md-10">
-     <iframe name="mainiframe" src="part1.html" id="mainiframe" scrolling="no" onload="changeFramepage()" frameborder="0" width="100%"></iframe>
-</div>
-</div>
+                <li>
+                <a href="./1.html" target="mainiframe">
+                    <i class="glyphicon glyphicon-cog"></i>
+                    算法配置
+                </a>
+            </li>
+                <li>
+                <a href="./2.html" target="mainiframe">
+                    <i class="glyphicon glyphicon-cog"></i>
+                    系统分析
+                </a>
+            </li>
+                <li>
+                <a href="./3.html" target="mainiframe">
+                    <i class="glyphicon glyphicon-cog"></i>
+                    统计分析
+                </a>
+            </li>
+            </ul>
+        </div>
+        <div class="col-md-10">
+            <iframe name="mainiframe" src="part1.html" id="mainiframe" scrolling="no" onload="changeFramepage()" frameborder="0" width="100%"></iframe>
+        </div>
+    </div>
 </div>
 
-
-<script>
-    $(document).ready(function() {
-    var trigger = $('.hamburger'),
-        overlay = $('.overlay'),
-        isClosed = false;
-    trigger.click(function() {
-        hamburger_cross();
-    });
-    function hamburger_cross() {
-        if (isClosed == true) {
-            overlay.hide();
-            trigger.removeClass('is-open');
-            trigger.addClass('is-closed');
-            isClosed = false;
-        } else {
-            overlay.show();
-            trigger.removeClass('is-closed');
-            trigger.addClass('is-open');
-            isClosed = true;
-        }
-    }
-    $('[data-toggle="offcanvas"]').click(function() {
-        $('#wrapper').toggleClass('toggled');
-    });
-});
-</script>
 
 <script type="text/javascript">
-
     function changeFramepage(){
         var ifm = document.getElementById("mainiframe");
     }
