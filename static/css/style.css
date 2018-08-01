@@ -9121,20 +9121,68 @@ table .upload-btn {
     position: fixed;
     top:  280px;
     left: 250px;
-    text-align: center;
-    font-weight: bold;
 
 }
 
 .box1 .pic{
     width:auto;
     height:auto;
+    left: 50px;
+
 }
 
 .box1 .b-text{
     font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
     font-size: 20px;
     font-weight: bold;
+    font-stretch: extra-condensed;
+    font-language-override: normal;
+    text-align:center;
+}
+
+.box2{
+    position: fixed;
+    top:  280px;
+    left: 800px;
+
+}
+
+.box2 .pic{
+    width:auto;
+    height:auto;
+    left: 50px;
+
+}
+
+.box2 .b-text{
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: extra-condensed;
+    font-language-override: normal;
+    text-align:center;
+}
+
+.box3{
+    position: fixed;
+    top:  280px;
+    left: 1350px;
+
+}
+
+.box3 .pic{
+    width:auto;
+    height:auto;
+    left: 50px;
+
+}
+
+.box3 .b-text{
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: extra-condensed;
+    font-language-override: normal;
     text-align:center;
 }
 
