@@ -9185,3 +9185,26 @@ table .upload-btn {
     font-language-override: normal;
     text-align:center;
 }
+
+.box4{
+    position: fixed;
+    top:  280px;
+    left: 1350px;
+
+}
+
+.box4 .pic{
+    width:auto;
+    height:auto;
+    left: 50px;
+
+}
+
+.box4 .b-text{
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: extra-condensed;
+    font-language-override: normal;
+    text-align:center;
+}
